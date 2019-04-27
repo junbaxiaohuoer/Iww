@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        a{
+            color: #000;
+            text-decoration: none;
+        }
+        html,body{
+            scroll-behavior: smooth;
+        }
+        #loutiNav{
+            display: none;
+            background: #49D13A;
+            position: fixed;
+            left: 0;
+            top: 40%;
+        }
+        #loutiNav>li>a,#loutiNav>li{
+            display: block;
+            width: 140px;
+            height: 40px;
+            cursor: pointer;
+            line-height: 40px;
+            text-align: center;
+        }
+        #loutiNav>li:hover ,.louti_nav>li:hover a{
+            color: #fff;
+            background-color: antiquewhite;
+        }
+        .top {
+            width: 1200px;
+            height: 750px;
+            margin: 0 auto;
+            background: #e3e4e5;
+            text-align: center;
+            position: relative;
+        }
+
+        #nav {
+            width: 600px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #nav>li {
+            width: 200px;
+            height: 40px;
+            background-color: #49D13A;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+            cursor: pointer;
+            float: left;
+        }
+        #nav>li>strong{
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+        }
+        #content2>.ul>li,#content1>.ul>li,#content>.ul>li {
+            width: 230px;
+            height: 300px;
+            float: left;
+            margin: 10px 5px;
+            background: white;
+        }
+
+        #content,#content1,#content2 {
+            display: block;
+            width: 965px;
+            height: 650px;
+            background: #000000;
+            margin: 20px auto 0;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: auto;
+            display: none;
+        }
+        .active {
+            background-color: #fff !important;
+            display: block;
+        }
+
+        .show {
+            display: block !important;
+        }
+        #louti5,#louti1,#louti2,#louti3,#louti4{
+            width: 1200px;
+            height: 1000px;
+            margin: 0 auto;
+        }
+        body>div:nth-child(2){
+            background: #49D13A;
+        }
+        body>div:nth-child(3){
+            background: rgb(135, 37, 192);
+        }
+        body>div:nth-child(4){
+            background: rgb(87, 76, 192);
+        }
+        body>div:nth-child(5){
+            background: rgb(197, 228, 87);
+        }
+        body>div:nth-child(6){
+            background: rgb(255, 213, 96);
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="loutiNav">
+            <li><a href="#louti1">楼梯1</a></li>
+            <li><a href="#louti2">楼梯2</a></li>
+            <li><a href="#louti3">楼梯3</a></li>
+            <li><a href="#louti4">楼梯4</a></li>
+            <li><a href="#louti5">楼梯5</a></li>
+            <li>返回顶部</li>
+    </ul>
+    <div class="top">
+        <ul id="nav">
+            <li>
+                <strong class="active">列表1</strong>
+                <div id="content" class="show">
+                    <ul class="ul">
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <strong>列表2</strong>
+                <div id="content1" style="background:orange">
+                    <ul class="ul">
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <strong>列表3</strong>
+                <div id="content2" style="background:orangered">
+                    <ul class="ul">
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Details.html" target="_blank">
+                                <img src="#" alt="">
+                                <h3>
+                                    夏季时尚休闲套装女韩版潮
+                                </h3>
+                                <p class="content1-p">原宿风夏季时尚休闲套装女韩版潮网红张大奕同款九分裤两件套衣服</p>
+                                <p class="content1-p1"><span>23.00</span>元</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+    </div>
+    <div id="louti1"></div>
+    <div id="louti2"></div>
+    <div id="louti3"></div>
+    <div id="louti4"></div>
+    <div id="louti5"></div>
+</body>
+<script src="./jquery-1.12.4.js"></script>
+<script>
+        $("#nav").on("click","strong",function(){
+		    $(this).addClass("active").parents("li").siblings("li").children("strong").removeClass("active");
+            $(this).siblings("div").addClass("show").parents("li").siblings("li").children("div").removeClass("show");
+	});
+        $(window).scroll(function(){
+            var list = document.getElementById("loutiNav");
+            // console.log($(window).scrollTop());
+            var top = $(window).scrollTop();
+            console.log(top)
+            if(top<600){
+                list.style.display = "none";
+            }else{
+                list.style.display = "block";
+            }
+            
+        })
+        $("#loutiNav").children("li:last").click(function(){
+            $("html,body").animate({
+					"scrollTop": 0
+				},100)
+        })
+</script>
+
+</html>
